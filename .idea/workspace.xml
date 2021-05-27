@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1fa23fd-c374-439b-bc7e-c3e580458d31" name="Default Changelist" comment="" />
+    <list default="true" id="c1fa23fd-c374-439b-bc7e-c3e580458d31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/flipkart/client/CRSApplicationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flipkart/client/CRSApplicationClient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1t893FJNpC5NLklCkvbAXeb9J5O" />
@@ -53,6 +60,19 @@
       <option name="presentableId" value="Default" />
       <updated>1622139651836</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Committ">
+      <created>1622140280362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622140280362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Initial Committ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Committ" />
   </component>
 </project>

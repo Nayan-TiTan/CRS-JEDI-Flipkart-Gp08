@@ -1,19 +1,16 @@
 
 package com.flipkart.client;
 
-import java.util.Scanner;
-
-import javax.management.relation.Role;
-
 import com.flipkart.constant.RoleConstants;
 import com.flipkart.exception.StudentNotRegisteredException;
 import com.flipkart.exception.UserAlreadyExistException;
 import com.flipkart.exception.UserNotFoundException;
 import com.flipkart.service.StudentInterface;
-import com.flipkart.exception.UserAlreadyExistException;
 import com.flipkart.service.StudentOperation;
 import com.flipkart.service.UserInterface;
 import com.flipkart.service.UserOperation;
+
+import java.util.Scanner;
 
 import static com.flipkart.constant.RoleConstants.STUDENT;
 
