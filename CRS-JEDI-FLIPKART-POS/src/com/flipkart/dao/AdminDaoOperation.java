@@ -39,7 +39,6 @@ public class AdminDaoOperation implements AdminDaoInterface {
 	/**
 	 * Delete Course using SQL commands
 	 * 
-	 * @param courseCode
 	 * @throws CourseNotFoundException
 	 * @throws CourseNotDeletedException
 	 */
@@ -227,7 +226,7 @@ public class AdminDaoOperation implements AdminDaoInterface {
 	/**
 	 * Method to delete Professor from DB
 	 * 
-	 * @param professorId
+	 * @param prefessorId
 	 * @throws ProfessorNotAddedException
 	 * @throws ProfessorNotDeletedException
 	 */
@@ -260,8 +259,7 @@ public class AdminDaoOperation implements AdminDaoInterface {
 
 	/**
 	 * Function to generate report
-	 * 
-	 * @param reportCard
+	 *
 	 * @throws StudentNotRegisteredException
 	 */
 	public void generateReport(int semester, String StudentId, String CPI,String courseid) throws StudentNotRegisteredException {

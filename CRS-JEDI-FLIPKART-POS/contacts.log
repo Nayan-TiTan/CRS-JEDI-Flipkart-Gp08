@@ -38,3 +38,13 @@
 12:32:09,911  INFO AdminDaoOperation,main:182 - Professor with professorId: bro added.
 12:32:22,107  INFO AdminDaoOperation,main:99 - 1 course added
 12:32:22,107  INFO AdminDaoOperation,main:105 - Course with courseId: sub is added to catalog.
+00:10:53,450  INFO AdminDaoOperation,main:99 - 1 course added
+00:10:53,452  INFO AdminDaoOperation,main:105 - Course with courseId: 1234 is added to catalog.
+00:25:02,604  INFO AdminDaoOperation,main:65 - 1 entries deleted.
+00:25:02,605  INFO AdminDaoOperation,main:71 - Course with courseId: 1234 deleted.
+00:25:24,928  INFO AdminDaoOperation,main:211 - 1 user added.
+00:25:24,928  INFO AdminDaoOperation,main:217 - User with userId: qwerty added.
+00:25:24,936  INFO AdminDaoOperation,main:176 - 1 professor added.
+00:25:24,936  INFO AdminDaoOperation,main:182 - Professor with professorId: 12345 added.
+13:18:53,122  INFO AdminDaoOperation,main:129 - 1 student approved.
+13:23:29,437  INFO AdminDaoOperation,main:129 - 1 student approved.

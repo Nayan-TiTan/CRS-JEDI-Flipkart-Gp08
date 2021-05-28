@@ -29,58 +29,57 @@ public class AdminMenuCRS {
 		
 		int in=0;
 		while(in!=7) {
-			System.out.println("------------------------------------------");
-			System.out.println("            ADMIN MENU");
-			System.out.println("------------------------------------------");
+			//System.out.println("------------------------------------------");
+			System.out.println();
+			System.out.println("            ADMIN PORTAL        ");
+			//System.out.println("------------------------------------------");
+			System.out.println();
+			System.out.println("Press 1 to Approve Students");
+			System.out.println("Press 2 to Add Professor");
+			System.out.println("Press 3 to Remove Professor");
+			System.out.println("Press 4 to Add Course to catalog");
+			System.out.println("Press 5 to Delete Course from catalog");
+			System.out.println("Press 6 to Logout");
 
-			System.out.println("1. Add Course to catalog");
-			System.out.println("2. Delete Course from catalog");
-			System.out.println("3. Approve Students");
-			System.out.println("4. Add Professor");
-//			System.out.println("5. Generate Report Card");
-			System.out.println("6. Remove Professor");
-			System.out.println("7. Exit Admin Menu");
-
-			System.out.println("------------------------------------------");
-			System.out.println("  ENTER YOUR CHOICE");
+			//System.out.println("------------------------------------------");
+			System.out.println("\nInput Choice");
 			System.out.println();
 
 			in=scanner.nextInt();
 			scanner.nextLine();
 			switch(in) {
-			case 1:
+			case 4:
 				addCourse();
 				break;
 					
-			case 2:
+			case 5:
 				deleteCourse();
 				break;
 					
-			case 3:
+			case 1:
 				approveStudent();
 				break;
 					
-			case 4:
+			case 2:
 				addProfessor();
 				break;
-			
-//			case 5:
-//				generateReport();
-//				break;
-				
-			case 6:
+
+			case 3:
 				removeProfessor();
 				break;
 				
-			case 7:
+			case 6:
 				return;
 				
 			default:
-				System.out.println("Invalid Choice");
+				System.out.println("Invalid Entry,Enter Again");
 			}
 		}
 	}
+	private void viewCourse(){
+		System.out.println(String.format("%20s | %20s | %20s","COURSE CODE", "COURSE NAME", "PROFESSOR"));
 
+	}
 	/**
 	 * Method to add course to DB
 	 */
@@ -94,8 +93,9 @@ public class AdminMenuCRS {
 		
 		System.out.println("Enter InstructorId:");
 		String instructorId = scanner.nextLine();
-				
+
 		Course course = new Course(courseCode, courseName, instructorId, 10);
+
 		
 		try {
 			adminObj.addCourse(course);
