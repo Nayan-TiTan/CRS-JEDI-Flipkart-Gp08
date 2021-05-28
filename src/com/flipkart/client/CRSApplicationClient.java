@@ -53,14 +53,14 @@ public class CRSApplicationClient {
 	}
 
 	public static void printMenu() {
-		System.out.println("------------------------------------------");
-		System.out.println("			  MAIN MENU");
-		System.out.println("------------------------------------------");
-		System.out.println("1. Signup");
-		System.out.println("2. Login ");
-		System.out.println("3. Exit");
-		System.out.println("------------------------------------------");
-		System.out.println("  ENTER YOUR CHOICE");
+		//System.out.println("------------------------------------------");
+		System.out.println("\n\nMENU ---------->");
+		System.out.println();
+		System.out.println("Press 1 for Student Registration ");
+		System.out.println("Press 2 to Login ");
+		System.out.println("Press 3 to Exit");
+		System.out.println();
+		System.out.println("Input Choice:");
 		System.out.println();
 	}
 	
@@ -75,19 +75,19 @@ public class CRSApplicationClient {
 			System.out.println("        STUDENT REGISTRATION");
 			System.out.println("------------------------------------------");
 
-			System.out.println("Name:");
+			System.out.println("Enter Name:");
 			name = sc.nextLine();
 			System.out.println("Roll Number:");
 			rollNumber = sc.nextLine();
-			System.out.println("Email:");
+			System.out.println("Enter Email:");
 			userId = sc.nextLine();
-			System.out.println("Password:");
+			System.out.println("Enter Password:");
 			password = sc.nextLine();
 			System.out.println("Mobile Number:");
 			mobileNumber = sc.nextLine();
-			System.out.println("Branch:");
+			System.out.println("Enter Branch:");
 			branch = sc.nextLine();
-			System.out.println("Address:");
+			System.out.println("Enter Address:");
 			address = sc.nextLine();
 
 			StudentOperation studentOperation = new StudentOperation();
@@ -108,9 +108,9 @@ public class CRSApplicationClient {
 			System.out.println("                LOGIN");
 			System.out.println("------------------------------------------");
 
-			System.out.println("Email:");
+			System.out.println("Enter Email:");
 			userId = sc.next();
-			System.out.println("Password:");
+			System.out.println("Enter Password:");
 			password = sc.next();
 			UserInterface userInterface = new UserOperation();
 			boolean loggedin = userInterface.verifyCredentials(userId, password);

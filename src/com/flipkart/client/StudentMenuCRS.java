@@ -18,7 +18,7 @@ import com.flipkart.service.RegistrationOperation;
 
 /**
  *
- * @author anshuman The class displays the menu for student client
+ * @author GP-08 The class displays the menu for student client
  *
  */
 public class StudentMenuCRS {
@@ -40,9 +40,11 @@ public class StudentMenuCRS {
 
 		is_registered = getRegistrationStatus(studentId);
 		while (is_registered) {
-			System.out.println("------------------------------------------");
-			System.out.println("               STUDENT MENU");
-			System.out.println("------------------------------------------");
+			//System.out.println("------------------------------------------");
+			System.out.println();
+			System.out.println("               STUDENT PORTAL          ");
+			System.out.println();
+			//System.out.println("------------------------------------------");
 			System.out.println("1. Course Registration");
 			System.out.println("2. Add Course");
 			System.out.println("3. Drop Course");
@@ -51,8 +53,9 @@ public class StudentMenuCRS {
 			System.out.println("6. View grade card");
 			System.out.println("7. Make Payment");
 			System.out.println("8. Logout");
-			System.out.println("------------------------------------------");
-			System.out.println("  ENTER YOUR CHOICE");
+			//System.out.println("------------------------------------------");
+			System.out.println();
+			System.out.println("  Input Choice");
 			System.out.println();
 
 			int choice = sc.nextInt();
@@ -91,7 +94,7 @@ public class StudentMenuCRS {
 				return;
 
 			default:
-				System.out.println("***** Wrong Choice *****");
+				System.out.println("Invalid Entry,Enter Again");
 			}
 		}
 	}

@@ -30,7 +30,7 @@ public class DBUtils {
                 
                 
                 String driver="com.mysql.cj.jdbc.Driver";
-                		String url="jdbc:mysql://localhost:3306/crs-jedi";
+                		String url="jdbc:mysql://localhost:3306/final_database";
                 			String user="root";
                 					String password="nayan10";
                 		

@@ -23,7 +23,7 @@ import org.apache.log4j.Logger;
  * @author GP-08
  *
  */
-public class AdminOperation implements AdminInterface {
+public class  AdminOperation implements AdminInterface {
 
 	/**
 	 * Method to Delete Course from Course Catalog

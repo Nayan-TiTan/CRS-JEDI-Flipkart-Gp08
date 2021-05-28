@@ -30,17 +30,19 @@ public class ProfessorMenuCRS {
 		int in=1;
 		while(in!=4)
 		{
-			System.out.println("------------------------------------------");
-			System.out.println("              PROFESSOR MENU              ");
-			System.out.println("------------------------------------------");
+			//System.out.println("------------------------------------------");
+			System.out.println();
+			System.out.println("              PROFESSOR PORTAL              ");
+			System.out.println();
+			//System.out.println("------------------------------------------");
 
 			System.out.println("1. View Courses");
 			System.out.println("2. View Enrolled Students");
 			System.out.println("3. Add grade");
 			System.out.println("4. Logout");
 
-			System.out.println("------------------------------------------");
-			System.out.println("  ENTER YOUR CHOICE");
+			System.out.println();
+			System.out.println("  Input Choice");
 			System.out.println();
 
 			in=sc.nextInt();
@@ -110,12 +112,12 @@ public class ProfessorMenuCRS {
 				}
 				catch(Exception e)
 				{
-					System.out.println("Something went wrong "+e.getMessage());
+					System.out.println("Something has gone wrong "+e.getMessage());
 				}
 			}
 			else
 			{
-				System.out.println("Invalid data entered, try again!");
+				System.out.println("Error, try again!");
 			}
 		}
 		catch(Exception ex)
